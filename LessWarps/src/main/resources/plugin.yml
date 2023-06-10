@@ -1,0 +1,20 @@
+name: EconomySMP
+version: 1.0
+main: plugin.plugin.Main
+author: OPMASTER
+commands:
+  setwarp:
+    description: Set a warp at your current location.
+    usage: /setwarp <name>
+  warp:
+    description: Teleport to a saved warp.
+    usage: /warp <name>
+  del:
+    description: Delete a saved warp.
+    usage: /del <name>
+  author:
+    description: Show the plugin author.
+    usage: /author
+depend:
+  - Vault
+
