@@ -88,7 +88,7 @@ public class Main extends JavaPlugin {
                 return true;
             }
         } else if (command.getName().equalsIgnoreCase("author")) {
-            sender.sendMessage(ChatColor.YELLOW + "This plugin was created by Cobble#0002.");
+            sender.sendMessage(ChatColor.YELLOW + "This plugin was created by PP.322666.");
             return true;
         }
         return false;
